@@ -14,7 +14,7 @@
 
 <h2 id="-" dir="rtl">عملیات های قابل پشتیبانی</h2>
 <p dir="rtl">در تصویر زیر تمامی عملیات های قابل پشتیبانی توسط سرویس WMS را مشاهده می‌کنیم.</p>
-<p dir="ltr"><img src="https://raw.githubusercontent.com/SaaFaa-company/geotajak3-documents/main/services/image/wms-oprations.png" alt="WMS supported operations" title="WMS supported operations"></p>
+<p dir="ltr"  style="background-color: mistyrose"><img src="https://raw.githubusercontent.com/SaaFaa-company/geotajak3-documents/main/services/image/wms-oprations.png" alt="WMS supported operations" title="WMS supported operations"></p>
 
 <ol dir="rtl">
     <li dir="rtl">GetCapabilities
