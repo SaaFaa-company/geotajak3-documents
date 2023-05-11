@@ -18,27 +18,27 @@
 
 <ol dir="rtl">
     <li dir="rtl">GetCapabilities
-    <ol dir="rtl">
+    <ol dir="rtl" style="list-style: none">
     <li dir="rtl" style="list-style: none"><p dir="rtl">فرا داده‌ای مربوط به سرویس مانند لیست لایه ها، پارامتر ها و عملیات های قابل پشتیبانی را در خروجی می‌دهد.</p></li>
     </ol>
     </li>
     <li dir="rtl">GetMap
-    <ol dir="rtl">
+    <ol dir="rtl" style="list-style: none">
     <li dir="rtl" style="list-style: none"><p dir="rtl">یک تصویر نقشه را بر می‌گرداند.</p></li>
     </ol>
     </li>
     <li dir="rtl">GetFeatureInfo
-    <ol dir="rtl">
+    <ol dir="rtl" style="list-style: none">
     <li dir="rtl" style="list-style: none"><p dir="rtl">داده‌های لایه را براساس یک پیکسل نقشه باز می‌گرداند.</p></li>
     </ol>
     </li>
     <li dir="rtl">DescribeLayer
-    <ol dir="rtl">
+    <ol dir="rtl" style="list-style: none">
     <li dir="rtl" style="list-style: none"><p dir="rtl">آدرس سرویس WFS یا WCS برای دریافت اطلاعات بیشتر در مورد لایه را می‌دهد. </p></li>
     </ol>
     </li>
     <li dir="rtl">GetLegendGraphic
-    <ol dir="rtl">
+    <ol dir="rtl" style="list-style: none">
     <li dir="rtl" style="list-style: none"><p dir="rtl">نمای کوچک قالب را باز می‌گرداند.</p></li>
     </ol>
     </li>
