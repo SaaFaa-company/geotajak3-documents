@@ -48,7 +48,10 @@
 
 <ol dir="rtl">
 
-<p>توجه داشته باشیدقبل از استفاده از مثال های این بخش باید از کارشناس سامانه درخواست Apikey و آدرس سرویس WMS را بدهید.</p>
+<p dir="rtl">توجه داشته باشیدقبل از استفاده از مثال های این بخش باید از کارشناس سامانه درخواست Apikey و آدرس سرویس WMS را بدهید.</p>
 
 <li dir="rtl">استفاده در نرم‌افزار QGIS</li>
+<p dir="ltr"  style="background-color: mistyrose"><img src="https://raw.githubusercontent.com/SaaFaa-company/geotajak3-documents/main/services/image/add-wms-qgis.png" alt="add WMS to qgis" title="add WMS to qgis"></p>
+<p dir="rtl">مطابق تصویر بالا آدرس WMS را در قسمت URL قرار می‌دهیم و در ادامه گزینه های چشم پوشی آدرس گزارش شده در GetCapabilities را نیز انتخاب می‌کنیم.</p>
+<p dir="rtl">دلیل انتخاب گزینه چشم پوشی آدرس های گزارش شده در GetCapabilities این است که درون خروجی GetCapabilities آدرس های اورده شده آدرس های داخلی می‌باشد و چون ما به آن ها دسترسی نداریم این گزینه ها را انتخاب می‌کنیم.</p>
 </ol>
