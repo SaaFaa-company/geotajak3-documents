@@ -10,8 +10,7 @@ geotajak3 is webapp to mange geometry data
 
 
 
-##### **Table Of Content**
-
+## **Table Of Content**
 
 * [wms](https://github.com/SaaFaa-company/geotajak3-documents/tree/main/services/wms)
 * [wfs](https://github.com/SaaFaa-company/geotajak3-documents/tree/main/services/wfs)
