@@ -10,7 +10,9 @@ geotajak3 is webapp to mange geometry data
 
 
 
-###### **Table Of Content**---
+###### **Table Of Content**
+
+---
 
 
 
