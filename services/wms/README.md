@@ -54,4 +54,22 @@
 <p dir="ltr"  style="background-color: mistyrose"><img src="https://raw.githubusercontent.com/SaaFaa-company/geotajak3-documents/main/services/image/add-wms-qgis.png" alt="add WMS to qgis" title="add WMS to qgis"></p>
 <p dir="rtl">مطابق تصویر بالا آدرس WMS را در قسمت URL قرار می‌دهیم و در ادامه گزینه های چشم پوشی آدرس گزارش شده در GetCapabilities را نیز انتخاب می‌کنیم.</p>
 <p dir="rtl">دلیل انتخاب گزینه چشم پوشی آدرس های گزارش شده در GetCapabilities این است که درون خروجی GetCapabilities آدرس های اورده شده آدرس های داخلی می‌باشد و چون ما به آن ها دسترسی نداریم این گزینه ها را انتخاب می‌کنیم.</p>
+
+<li dir="rtl">با استفاده از request</li>
+<h5 dir="rtl">GetCapabilities</h5>
+<p dir="rtl">
+<code dir="ltr">
+curl --location --request GET 'http://192.168.11.73/api/proxy/api_key/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc0MDY3NzA2LCJqdGkiOiJjNTUzYWQ2ZTEwYmE0ZWQ1YmFkNWUxZGExZGNkY2FmMiIsInVzZXJfaWQiOjYwLCJkZXYiOiJhcGkiLCJ1c2VybmFtZSI6ImRvYyJ9.7KDeaHIzrGj0Nba8vbNWbAhUSjrFP61zTK4OlVV5sKE/wms/?service=wms&version=1.1.1&request=GetCapabilities'
+</code></p>
+<h5 dir="rtl">GetMap</h5>
+<p dir="rtl">
+<code dir="ltr">
+curl --location --request GET 'http://192.168.11.73/api/proxy/api_key/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc0MDY3NzA2LCJqdGkiOiJjNTUzYWQ2ZTEwYmE0ZWQ1YmFkNWUxZGExZGNkY2FmMiIsInVzZXJfaWQiOjYwLCJkZXYiOiJhcGkiLCJ1c2VybmFtZSI6ImRvYyJ9.7KDeaHIzrGj0Nba8vbNWbAhUSjrFP61zTK4OlVV5sKE/wms/?service=wms&version=1.3.0&request=GetMap&layers=geotajak:shahrestan_100_new&FORMAT=image/png&height=256&width=256&bbox=33.75,56.25,39.375,61.875&CRS=EPSG:4326&srs=EPSG:4326&TILED=true&STYLES=shahrestan_100_new_89_initial'
+</code></p>
+<h5 dir="rtl">GetFeatureInfo</h5>
+<p dir="rtl">
+<code dir="ltr">
+curl --location --request GET 'http://192.168.11.73/api/proxy/api_key/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc0MDY3NzA2LCJqdGkiOiJjNTUzYWQ2ZTEwYmE0ZWQ1YmFkNWUxZGExZGNkY2FmMiIsInVzZXJfaWQiOjYwLCJkZXYiOiJhcGkiLCJ1c2VybmFtZSI6ImRvYyJ9.7KDeaHIzrGj0Nba8vbNWbAhUSjrFP61zTK4OlVV5sKE/wms/?service=wms&version=1.3.0&request=GetFeatureInfo&layers=geotajak:shahrestan_100_new&FORMAT=image/png&height=256&width=256&bbox=28.125,50.625,33.75,56.25&CRS=EPSG:4326&srs=EPSG:4326&STYLES=shahrestan_100_new_89_initial&QUERY_LAYERS=geotajak:shahrestan_100_new&FEATURE_COUNT=50&I=212&J=45'
+</code></p>
+
 </ol>
