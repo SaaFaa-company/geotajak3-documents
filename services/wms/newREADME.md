@@ -1,7 +1,7 @@
 # سرویس WMS
 در این بخش به توضیحات سرویس WMS می‌پردازیم.
 
-##تعریف
+### تعریف
 سرویس WMS خلاصه شده‌ی Web Map Service می‌باشد.
 
 کاربرد های سرویس WMS
@@ -11,7 +11,7 @@
 - برداشت اطلاعات از نقشه
 - دریافت نمای کوچک قالب
 
-##عملیات های قابل پشتیبانی
-در تصویر زیر تمامی عملیات های قابل پشتیبانی توسط سرویس WMS را مشاهده می‌کنیم.
+### عملیات های قابل پشتیبانی
+غدر تصویر زیر تمامی عملیات های قابل پشتیبانی توسط سرویس WMS را مشاهده می‌کنیم.
 
 ![WMS supported operations!](https://raw.githubusercontent.com/SaaFaa-company/geotajak3-documents/main/services/image/wms-oprations.png "WMS supported operations")
