@@ -11,3 +11,14 @@
 - دریافت مشخصات لایه(فیلد های لایه و ...)
 
 ### عملیات های قابل پشتیبانی
+
+![wfs supported operations](https://github.com/SaaFaa-company/geotajak3-documents/blob/main/services/image/wfs-oprations.png?raw=true "wfs supported operations")
+
+- عملیات GetCapabilities
+    - فرا داده ای مربرط به سرویسی که سرور قابلیت ارائه دارد را ایجاد می‌کند همچنین عملیات و پارامتر های معتبر WFS را توصیف می‌کند
+- عملیات DescribeFeatureType
+    - اطلاعاتی درمورد فیلد های لایه باز می‌گرداند
+- عملیات GetFeature
+    - داده های لایه مورد نظر را باز می‌گرداند
+- عملیات Transaction
+    - برای عملیات روی داده های لایه
