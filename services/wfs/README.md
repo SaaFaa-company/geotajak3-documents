@@ -27,4 +27,20 @@
 توجه داشته باشیدقبل از استفاده از مثال های این بخش باید از کارشناس سامانه درخواست Apikey و آدرس سرویس WFS را بدهید.
 
 - استفاده در نرم‌افزار QGIS
-
+  - ![add wfs to qgis](https://github.com/SaaFaa-company/geotajak3-documents/blob/main/services/image/add-wfs-qgis.png?raw=true "add wfs to qgis")
+    - مطابق تصویر بالا آدرس WFS را در قسمت url قرار می‌دهیم و از سرویس مورد نظر استفاده می‌کنیم
+  
+- با استفاده از request
+  - عملیات GetCapabilities
+    - ```
+      curl --location --request GET 'http://192.168.11.73/api/proxy/api_key/{your apikey}/wfs/?service=wfs&version=1.1.0&request=GetCapabilities'
+      ```
+        - {your apikey} : کلید دسترسی که از کارشناس سامانه دریافت می کنید
+  
+  - عملیات DescribeFeatureType
+    - ```
+      curl --location --request GET 'http://192.168.11.73/api/proxy/api_key/{your apikey}/wfs/?service=wfs&version=1.1.1&request=DescribeFeatureType&typeNames={layername}'
+      ```
+        - {layername} : نام لایه
+  
+  
