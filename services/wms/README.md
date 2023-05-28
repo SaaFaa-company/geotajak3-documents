@@ -37,17 +37,17 @@
     - دلیل انتخاب گزینه چشم پوشی آدرس های گزارش شده در GetCapabilities این است که درون خروجی GetCapabilities آدرس های اورده شده آدرس های داخلی می‌باشد و چون ما به آن ها دسترسی نداریم این گزینه ها را انتخاب می‌کنیم.
     
 - با استفاده از request
-  - GetCapabilities
+  - عملیات GetCapabilities
     - ```curl --location --request GET 'http://192.168.11.73/api/proxy/api_key/{your apikey}/wms/?service=wms&version=1.1.1&request=GetCapabilities'```
       - {your apikey} : کلید دسترسی که از کارشناس سامانه دریافت می کنید
-  - GetMap
+  - عملیات GetMap
     - ```curl --location --request GET 'http://192.168.11.73/api/proxy/api_key/{your apikey}/wms/?service=wms&version=1.3.0&request=GetMap&layers={layer name}&FORMAT=image/png&height=256&width=256&bbox={bbox}&CRS={crs}&srs={srs}&TILED=true&STYLES={style name}'```
       - {layer name} : نام لایه مورد نظر در ژئوسرور
       - {bbox} : محدوده مورد نظر
       - {src} : پروژکشنی که تایل نقشه براساس آن ساخته شود
       - {crs} : پروژکشنی که تایل نقشه براساس آن ساخته شود
       - {style name} : نام استایلی که ژئوسرور برای ساخت تایل استفاده کند
-  - GetFeatureInfo
+  - عملیات GetFeatureInfo
     - ```curl --location --request GET 'http://192.168.11.73/api/proxy/api_key/{your apikey}/wms/?service=wms&version=1.3.0&request=GetFeatureInfo&layers={layer name}&info_format=application/json&height=256&width=256&bbox={bbox}&CRS={crs}6&srs={srs}&STYLES={style name}&QUERY_LAYERS={layer name}&FEATURE_COUNT=50&I={i}&J={j}'```
       - {i} : نقطه ی مورد نظر بر اساس محور افقی برحسب پیکسل (0 نقطه سمت چپ)
       - {j} : نقطه ی مورد نظر براساس محور عمودی برحسب پیکسی (0 نقطه بالا)
