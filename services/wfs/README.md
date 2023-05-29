@@ -61,7 +61,7 @@
         curl --location --request GET 'http://{your ip}/api/proxy/api_key/{your apikey}/wfs/?service=wfs&version=1.1.0&request=GetFeature&typeNames={layername}&maxFeatures={count}'
         ```
         - {count} : تعداد مورد نظر
-        - توجه داشته باشد فیلتر تعداد (maxFeatures) تنها در ورژن 1.1.0 استفاده می‌شود
+        - توجه داشته باشید فیلتر تعداد (maxFeatures) تنها در ورژن 1.1.0 استفاده می‌شود
       - ```
         curl --location --request GET 'http://{your ip}/api/proxy/api_key/{your apikey}/wfs/?service=wfs&request=GetFeature&typeNames={layername}&count={count}&version=1.1.1'
         ```
