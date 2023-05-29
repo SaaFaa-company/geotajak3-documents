@@ -42,5 +42,27 @@
       curl --location --request GET 'http://192.168.11.73/api/proxy/api_key/{your apikey}/wfs/?service=wfs&version=1.1.1&request=DescribeFeatureType&typeNames={layername}'
       ```
         - {layername} : نام لایه
+        - توجه داشته باشید در ورژن های 1.1.1 و بعد از آن فیلتر نام لایه تاثیر گذار خواهد بود
   
+  - عملیات GetFeature
+    - تمام داده ها (بدون فیلتر)
+      - ```
+        curl --location --request GET 'http://192.168.11.73/api/proxy/api_key/{your apikey}/wfs/?service=wfs&version=1.1.1&request=GetFeature&typeNames={layername}'
+        ```
+    
+    - فیلتر با featureID
+      - ```
+        curl --location --request GET 'http://192.168.11.73/api/proxy/api_key/{your apikey}/wfs/?service=wfs&version=1.1.1&request=GetFeature&typeNames=geotajak:{layername}&featureID={featureID}'
+        ```
+        - {featureID} : ای‌دی فیچر مورد نظر
   
+    - فیلتر تعداد
+      - ```
+        curl --location --request GET 'http://192.168.11.73/api/proxy/api_key/{your apikey}/wfs/?service=wfs&version=1.1.0&request=GetFeature&typeNames={layername}&maxFeatures={count}'
+        ```
+        - {count} : تعداد مورد نظر
+        - توجه داشته باشد فیلتر تعداد (maxFeatures) تنها در ورژن 1.1.0 استفاده می‌شود
+      - ```
+        curl --location --request GET 'http://192.168.11.73/api/proxy/api_key/{your apikey}/wfs/?service=wfs&request=GetFeature&typeNames={layername}&count={count}&version=1.1.1'
+        ```
+        - توجه داشته باشید فیلتر تعداد (count) تنها در ورژن های 1.1.1 به بعد قابل استفاده است
