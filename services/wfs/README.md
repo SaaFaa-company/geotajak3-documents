@@ -36,6 +36,7 @@
       curl --location --request GET 'http://{your ip}/api/proxy/api_key/{your apikey}/wfs/?service=wfs&version=1.1.0&request=GetCapabilities'
       ```
         - {your apikey} : کلید دسترسی که از کارشناس سامانه دریافت می کنید
+        - {your ip} : آدرس سامانه مورد نظر
   
   - عملیات DescribeFeatureType
     - ```
@@ -66,3 +67,28 @@
         curl --location --request GET 'http://{your ip}/api/proxy/api_key/{your apikey}/wfs/?service=wfs&request=GetFeature&typeNames={layername}&count={count}&version=1.1.1'
         ```
         - توجه داشته باشید فیلتر تعداد (count) تنها در ورژن های 1.1.1 به بعد قابل استفاده است
+    
+    - فیلتر با کمک ترتیب یک فیلد
+      - ```
+        curl --location --request GET 'http://{your ip}/api/proxy/api_key/{your apikey}/wfs/?service=wfs&request=GetFeature&typeNames={layername}&count={count}&version=1.1.1&sortBy={fieldname}'
+        ```
+        - {fieldname} : نام فیلد مورد نظر موجود در لایه
+
+    - فیلتر برعکس با کمک ترتیب یک فیلد
+      - ```
+        curl --location --request GET 'http://{your ip}/api/proxy/api_key/{your apikey}/wfs/?service=wfs&request=GetFeature&typeNames={layername}&count={count}&version=1.1.1&sortBy={fieldname}+D'
+        ```
+        - برای فیلتر به صورت برعکس تنها کافی است +D به اخر نام فیلد اضافه کنید
+    
+    - فیلتر فیلد ها در خروجی
+      - ```
+        curl --location --request GET 'http://{your ip}/api/proxy/api_key/{your apikey}/wfs/?service=wfs&request=GetFeature&typeNames={layername}&count={count}&version=1.1.1&propertyName={fieldname1},{fieldname2}'
+        ```
+        - {propertyName} : نام فیلد های مورد نیاز در خروجی (با کاما جدا شود)
+  
+    - فیلتر با کمک محدوده نمایش (bbox)
+      - ```
+        curl --location --request GET 'http://{your ip}/api/proxy/api_key/{your apikey}/wfs/?service=wfs&request=GetFeature&typeNames={layername}&version=1.1.1&srsName={crs}:4326&bbox={bbox},{crs}'
+        ```
+        - {bbox} : محدوده نمایش مورد نظر
+        - {crs} : نام پروژکشن مورد نظر مانند EPSG:4326

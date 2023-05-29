@@ -42,6 +42,7 @@
         curl --location --request GET 'http://{your ip}/api/proxy/api_key/{your apikey}/wms/?service=wms&version=1.1.1&request=GetCapabilities'
       ```
       - {your apikey} : کلید دسترسی که از کارشناس سامانه دریافت می کنید
+      - {your ip} : آدرس سامانه مورد نظر
   - عملیات GetMap
     - ```
         curl --location --request GET 'http://{your ip}/api/proxy/api_key/{your apikey}/wms/?service=wms&version=1.3.0&request=GetMap&layers={layer name}&FORMAT=image/png&height=256&width=256&bbox={bbox}&CRS={crs}&srs={srs}&TILED=true&STYLES={style name}'
