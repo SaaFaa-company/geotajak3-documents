@@ -22,8 +22,23 @@
     - آدرس: http://{your ip}/api/layers
         - {your ip}: آدرس سامانه مورد نظر
     
-    - نمونه در خواست با curl
+    - نمونه درخواست با curl
         - ```
           curl --location --request GET 'http://192.168.11.73/api/layers' --header 'Authorization: Bearer {your apikey}'
           ```
             - {your apikey} : کلید دسترسی که از کارشناس سامانه دریافت می کنید
+    
+- دریافت لیست فیلد های لایه
+    - متد get
+    - احراز هویت: barer token در هدر
+    - آدرس: http://{your ip}/api/layers/{layer id}/attributes/
+        - {your ip}: آدرس سامانه مورد نظر
+        - {layer id}: آی دی لایه مورد نظر
+    
+    - نمونه درخواست با curl
+        - ```
+           curl --location --request GET 'http://{your ip}/api/layers/{layer id}/attributes/' --header 'Authorization: Bearer {your apikey}'
+          ```
+            - {your apikey} : کلید دسترسی که از کارشناس سامانه دریافت می کنید
+            - {your ip}: آدرس سامانه مورد نظر
+            - {layer id}: آی دی لایه مورد نظر 
