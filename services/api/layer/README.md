@@ -16,4 +16,13 @@
 در این بخش آموزش به استفاده کردن از api های ارائه شده ماژول لایه ها می پردازیم
 
 
--دریافت لیست لایه ها
+- دریافت لیست لایه ها
+    - متد get
+    - احراز هویت: barer token در هدر
+    - آدرس: http://{your ip}/api/layers
+        - {your ip}: آدرس سامانه مورد نظر
+    - نمونه در خواست با curl
+        - ```
+          curl --location --request GET 'http://192.168.11.73/api/layers' --header 'Authorization: Bearer {your apikey}'
+          ```
+            - {your apikey} : کلید دسترسی که از کارشناس سامانه دریافت می کنید
