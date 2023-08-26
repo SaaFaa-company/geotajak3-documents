@@ -17,4 +17,5 @@ geotajak3 is webapp to mange geometry data
   * [wms](https://github.com/SaaFaa-company/geotajak3-documents/tree/main/services/wms)
   * [wfs](https://github.com/SaaFaa-company/geotajak3-documents/tree/main/services/wfs)
   * [api](https://github.com/SaaFaa-company/geotajak3-documents/tree/main/services/api)
+    * [layer](https://github.com/SaaFaa-company/geotajak3-documents/tree/main/services/api/layer)
   * [basemap](https://github.com/SaaFaa-company/geotajak3-documents/tree/main/services/basemap)
