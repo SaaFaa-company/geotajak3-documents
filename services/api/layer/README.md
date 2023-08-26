@@ -10,3 +10,10 @@
 بعد از وارد شدن به این آدرس با صفحه ای مانند تصویر زیر روبرو خواهید شد
 
 ![api docs sample page](https://github.com/SaaFaa-company/geotajak3-documents/blob/main/services/image/apidoc.png?raw=true "api docs sample page")
+
+در این صفحه لیست تمام api های موجود در سامانه را مشاهده می کنیم
+
+در این بخش آموزش به استفاده کردن از api های ارائه شده ماژول لایه ها می پردازیم
+
+
+-دریافت لیست لایه ها
