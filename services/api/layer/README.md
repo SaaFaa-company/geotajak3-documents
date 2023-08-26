@@ -41,4 +41,25 @@
           ```
             - {your apikey} : کلید دسترسی که از کارشناس سامانه دریافت می کنید
             - {your ip}: آدرس سامانه مورد نظر
-            - {layer id}: آی دی لایه مورد نظر 
+            - {layer id}: آی دی لایه مورد نظر
+    
+- دریافت فیچر های لایه
+    - متد get
+    - احراز هویت: barer token در هدر
+    - آدرس: http://{your ip}/api/layers/{layer id}/features/?outputFormat=json&is_form=true&limit={limit}&offset={offset}&maxFeatures={max feature}
+        - {your ip}: آدرس سامانه مورد نظر
+        - {layer id}: آی دی لایه مورد نظر
+        - {limit}: محدودیت تعداد خروجی
+        - {offset}: نقطه شروع شمارش
+        - {max feature}: محدودیت تعداد خروجی
+    
+    - نمونه درخواست با curl
+        - ```
+           curl --location --request GET 'http://{your ip}/api/layers/{layer id}/features/?outputFormat=json&is_form=true&limit={limit}&offset={offset}&maxFeatures={max feature}' --header 'Authorization: Bearer {your apikey}'
+          ```
+            - {your apikey} : کلید دسترسی که از کارشناس سامانه دریافت می کنید
+            - {your ip}: آدرس سامانه مورد نظر
+            - {layer id}: آی دی لایه مورد نظر
+            - {limit}: محدودیت تعداد خروجی
+            - {offset}: نقطه شروع شمارش
+            - {max feature}: محدودیت تعداد خروجی
