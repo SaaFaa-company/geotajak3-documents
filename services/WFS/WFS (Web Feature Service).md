@@ -15,7 +15,7 @@
 
 سرویس WFS چندین عملیات استاندارد را پشتیبانی می‌کند که هر کدام کاربرد خاصی دارند:
 
-![عملیات‌های پشتیبانی‌شده WFS](https://github.com/SaaFaa-company/geotajak3-documents/blob/main/services/image/wfs-oprations.png?raw=true "عملیات‌های پشتیبانی‌شده WFS")
+![عملیات‌های پشتیبانی‌شده WFS](https://github.com/SaaFaa-company/geotajak3-documents/blob/main/services/Images/wfs-oprations.png?raw=true "عملیات‌های پشتیبانی‌شده WFS")
 
 ### 1. عملیات GetCapabilities
 
@@ -55,7 +55,7 @@
 
 ### استفاده در نرم‌افزار QGIS
 
-![افزودن WFS به QGIS](https://github.com/SaaFaa-company/geotajak3-documents/blob/main/services/image/add-wfs-qgis.png?raw=true "افزودن WFS به QGIS")
+![افزودن WFS به QGIS](https://github.com/SaaFaa-company/geotajak3-documents/blob/main/services/Images/add-wfs-qgis.png?raw=true "افزودن WFS به QGIS")
 
 مراحل اتصال:
 
