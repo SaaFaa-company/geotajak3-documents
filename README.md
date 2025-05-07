@@ -1,21 +1,36 @@
-# Geotajak3 Documents
 
-![webservices](https://raw.githubusercontent.com/SaaFaa-company/geotajak3-documents/main/services/image/webservices.jpg "webservices")
+---
 
-geotajak3 services guide
+# 🌐 Geotajak3 Documentation
 
-on this project we try to guide you how to use geotajak3 services!!
+![Web Services](https://raw.githubusercontent.com/SaaFaa-company/geotajak3-documents/main/services/Images/webservices.jpg "Web Services")
 
-geotajak3 is webapp to mange geometry data
+This guide will help you understand and utilize the various services provided by Geotajak3.
+
+---
+
+## 📘 About Geotajak3
+
+**Geotajak3** is a web-based application built to manage, visualize, and interact with spatial and geometry-related data. It supports multiple services including WMS, WFS, REST APIs, and custom basemaps to enhance your geospatial workflows.
+
+---
+
+## 📚 Table of Contents
+
+Explore the documentation by navigating through the following services:
+
+* **[Services Overview](https://github.com/SaaFaa-company/geotajak3-documents/tree/main/services)**
+  General overview of all available services.
+
+  * **[WMS (Web Map Service)](https://github.com/SaaFaa-company/geotajak3-documents/tree/main/services/WMS)**
+    Learn how to integrate map rendering services.
+
+  * **[WFS (Web Feature Service)](https://github.com/SaaFaa-company/geotajak3-documents/tree/main/services/WFS)**
+    Access and manipulate vector data using WFS.
+
+  * **[API Services](https://github.com/SaaFaa-company/geotajak3-documents/tree/main/services/Api-Layer)**
+    Programmatic access to Geotajak3 features and data.
+
+---
 
 
-
-## **Table Of Content**
-
-* [sercives](https://github.com/SaaFaa-company/geotajak3-documents/tree/main/services)
-
-  * [wms](https://github.com/SaaFaa-company/geotajak3-documents/tree/main/services/wms)
-  * [wfs](https://github.com/SaaFaa-company/geotajak3-documents/tree/main/services/wfs)
-  * [api](https://github.com/SaaFaa-company/geotajak3-documents/tree/main/services/api)
-    * [layer](https://github.com/SaaFaa-company/geotajak3-documents/tree/main/services/api/layer)
-  * [basemap](https://github.com/SaaFaa-company/geotajak3-documents/tree/main/services/basemap)
