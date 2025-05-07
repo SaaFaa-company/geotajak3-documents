@@ -20,7 +20,7 @@ WMS مخفف Web Map Service می‌باشد. این سرویس استاندار
 
 WMS از عملیات‌های متعددی پشتیبانی می‌کند که در تصویر زیر قابل مشاهده هستند:
 
-![WMS supported operations](https://raw.githubusercontent.com/SaaFaa-company/geotajak3-documents/main/services/image/wms-oprations.png "WMS supported operations")
+![WMS supported operations](https://raw.githubusercontent.com/SaaFaa-company/geotajak3-documents/main/services/Images/wms-oprations.png "WMS supported operations")
 
 ### عملیات GetCapabilities
 
@@ -77,7 +77,7 @@ QGIS یکی از نرم‌افزارهای مشهور GIS است که از سر�
 3. نام و آدرس سرویس WMS را وارد کنید
 4. مطابق تصویر زیر، آدرس WMS را در قسمت URL قرار دهید:
 
-![add WMS to qgis](https://raw.githubusercontent.com/SaaFaa-company/geotajak3-documents/main/services/image/add-wms-qgis.png "add WMS to qgis")
+![add WMS to qgis](https://raw.githubusercontent.com/SaaFaa-company/geotajak3-documents/main/services/Images/add-wms-qgis.png "add WMS to qgis")
 
 5. گزینه‌های "Ignore GetMap/GetTile URI reported in capabilities" و "Ignore GetFeatureInfo URI reported in capabilities" را انتخاب کنید
 
