@@ -14,7 +14,7 @@
 2. به انتهای آدرس سامانه، عبارت `/api/docs` را اضافه کنید
 3. پس از وارد شدن، صفحه‌ای مشابه تصویر زیر مشاهده خواهید کرد:
 
-![api docs sample page](https://github.com/SaaFaa-company/geotajak3-documents/blob/main/services/image/apidoc.png?raw=true "api docs sample page")
+![api docs sample page](https://github.com/SaaFaa-company/geotajak3-documents/blob/main/services/Imeges/apidoc.png?raw=true "api docs sample page")
 
 
 ## API‌های ماژول لایه‌ها (Layer Module APIs)
